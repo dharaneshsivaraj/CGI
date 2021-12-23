@@ -3,6 +3,8 @@ CREATE OR REPLACE package body APPS.xxqia_fusion_integration
 
 as
 
+--- commented on 23-12-2021
+
 procedure process_grades_dat(p_file_name in VARCHAR2)
 as
 cursor c1
